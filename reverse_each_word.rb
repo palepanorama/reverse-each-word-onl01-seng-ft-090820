@@ -1,3 +1,4 @@
-def reverse_each_word ("Hello there, how are you today?")
+def reverse_each_word (a)
+  
   
 end
