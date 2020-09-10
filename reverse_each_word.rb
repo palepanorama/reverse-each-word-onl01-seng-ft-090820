@@ -1,4 +1,8 @@
 def reverse_each_word (a)
-  a = "Hello there, how are you?"
-  reversed = a.split
+  array = a.split(" ")
+  test = []
+  array.each do |a|
+    test << a.reverse
+  end
+  test.join("")
 end
